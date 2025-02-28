@@ -5,6 +5,7 @@ import HorizontalCards from './components/HorizontalCards'
 import HeadingTexts from './components/HeadingTexts'
 import FancyCard from './components/FancyCard'
 import ActionCards from './components/ActionCards'
+import ContactList from './components/ContactList'
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
             <FancyCard/>
             <HeadingTexts text='Fancy Cards'/>
             <ActionCards/>
+            <HeadingTexts text='Contact List '/>
+            <ContactList/>
         </ScrollView>
     </SafeAreaView>
   )
